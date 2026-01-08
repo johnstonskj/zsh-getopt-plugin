@@ -5,7 +5,7 @@
 #
 # Description:
 #
-#   Set path for GNU-compatible getopt command line option parser.
+#   Zsh plugin to set the correct path for get-opt installed via Homebrew.
 #
 # Public variables:
 #
