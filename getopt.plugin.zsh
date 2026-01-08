@@ -1,17 +1,15 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
 # Plugin Name: getopt
+# Description: Zsh plugin to set the correct path for get-opt installed via Homebrew.
 # Repository: https://github.com/johnstonskj/zsh-getopt-plugin
-#
-# Description:
-#
-#   Zsh plugin to set the correct path for get-opt installed via Homebrew.
 #
 # Public variables:
 #
 # * `GETOPT`; plugin-defined global associative array with the following keys:
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
+#   * `_PATH`; path to the gnu-getopt binary.
 #
 
 ############################################################################
